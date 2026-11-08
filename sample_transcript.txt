@@ -1,0 +1,9 @@
+Meeting: Speech Recognition Project Progress
+Date: 8 November 2026
+
+Aditi: We need to review the speech recognition project progress.
+Rahul: I will complete the MFCC feature extraction module by Friday.
+Priya: I will evaluate the CNN model and share the test results by Tuesday.
+Aditi: We agreed to use the TIMIT dataset for the next round of experiments.
+Rahul: The team should also compare inference speed between the two models.
+Aditi: Our next meeting will be on Monday at 11 AM.
