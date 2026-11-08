@@ -1,10 +1,20 @@
 # Local Meeting Minutes Generator
 
 A beginner-friendly local LLM application that turns meeting transcripts into structured minutes using Ollama and Streamlit.
+## Repository Overview
+
+The repository contains the following files:
+
+| File | Description |
+|:---|:---|
+| `app.py` | Main application source code implementing the local LLM-based meeting minutes generator using Python and Ollama. |
+| `sample_transcript.txt` | A sample meeting transcript used for the initial testing and demonstration of the application. |
+| `test_transcripts.txt` | Contains five test meeting transcripts created using Generative AI to evaluate the model's performance across different meeting scenarios and populate the evaluation template. |
+| `evaluation_template.csv` | A structured evaluation template for assessing the quality and performance of the locally running LLM. Includes the following columns:<br><br> - `transcript_id`: Unique transcript identifier.<br> - `model`: Ollama model name.<br> - `elapsed_seconds`: Generation time in seconds.<br> - `decision_capture_correct`: Correctness of decision extraction.<br> - `owner_capture_correct`: Correctness of action-item owner extraction.<br> - `deadline_capture_correct`: Correctness of deadline extraction.<br> - `unsupported_claims`: Count of unsupported or hallucinated claims.<br> - `quality_rating_1_to_5`: Overall quality rating on a scale of 1–5.<br> - `notes`: Additional evaluation observations.<br><br>Correctness fields use `1` for correct and `0` for incorrect. The template contains five evaluation entries (`T01`–`T05`). 
 
 ## Features
 
-- Uses a locally running Ollama model (no cloud API key).
+- Uses a locally running Ollama model.
 - Generates a meeting overview, summary, discussion points, decisions, action items, and next-meeting details.
 - Allows the user to select among small local models.
 - Provides a downloadable Markdown output.
@@ -38,7 +48,7 @@ ollama pull qwen2.5:1.5b
 
 ### 3. Set up Python
 python -m pip install -r requirements.txt
-```
+
 
 ### 4. Launch the app
 
