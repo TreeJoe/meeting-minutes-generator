@@ -15,7 +15,6 @@ A beginner-friendly local LLM application that turns meeting transcripts into st
 - Windows 10/11 (or macOS/Linux)
 - Python 3.10+
 - Ollama installed
-- Enough RAM for the model you choose (start with a small model)
 
 ## Setup on Windows
 
@@ -35,12 +34,6 @@ You can optionally try another supported model:
 
 ```powershell
 ollama pull qwen2.5:1.5b
-```
-
-Confirm installation:
-
-```powershell
-ollama list
 ```
 
 ### 3. Set up Python
