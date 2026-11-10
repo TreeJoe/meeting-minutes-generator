@@ -32,7 +32,7 @@ The repository contains the following files:
 
 Download and install from https://ollama.com/download
 
-### 2. Download a model
+### 2. Downloading a model
 
 Open PowerShell or the VS Code terminal:
 
@@ -40,25 +40,25 @@ Open PowerShell or the VS Code terminal:
 ollama pull llama3.2:1b
 ```
 
-You can optionally try another supported model:
+Another supported model:
 
 ```powershell
 ollama pull qwen2.5:1.5b
 ```
 
-### 3. Set up Python
+### 3. Setting up Python
 python -m pip install -r requirements.txt
 
 
-### 4. Launch the app
+### 4. Launching the app
 
 ```powershell
 streamlit run app.py
 ```
 
-Streamlit will open the app in your browser (typically at http://localhost:8501).
+Streamlit will open the app in the browser (typically at http://localhost:8501).
 
-## How to use
+## User Manual
 
 1. Choose the model in the sidebar. It must be installed in Ollama.
 2. Paste a transcript into the text area.
