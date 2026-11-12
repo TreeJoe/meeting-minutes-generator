@@ -10,7 +10,7 @@ The repository contains the following files:
 | `app.py` | Main application source code implementing the local LLM-based meeting minutes generator using Python and Ollama. |
 | `sample_transcript.txt` | A sample meeting transcript used for the initial testing and demonstration of the application. |
 | `test_transcripts.txt` | Contains five test meeting transcripts created using Generative AI to evaluate the model's performance across different meeting scenarios and populate the evaluation template. |
-| `evaluation_template.csv` | A structured evaluation template for assessing the quality and performance of the locally running LLM. Includes the following columns:<br><br> - `transcript_id`: Unique transcript identifier.<br> - `model`: Ollama model name.<br> - `elapsed_seconds`: Generation time in seconds.<br> - `decision_capture_correct`: Correctness of decision extraction.<br> - `owner_capture_correct`: Correctness of action-item owner extraction.<br> - `deadline_capture_correct`: Correctness of deadline extraction.<br> - `unsupported_claims`: Count of unsupported or hallucinated claims.<br> - `quality_rating_1_to_5`: Overall quality rating on a scale of 1–5.<br> - `notes`: Additional evaluation observations.<br><br>Correctness fields use `1` for correct and `0` for incorrect. The template contains five evaluation entries (`T01`–`T05`). 
+| `evaluation_matrix.csv` | A structured evaluation matrix for assessing the quality and performance of the locally running LLM. Includes the following columns:<br><br> - `transcript_id`: Unique transcript identifier.<br> - `model`: Ollama model name.<br>  - `decision_capture_correct`: Correctness of decision extraction.<br> - `owner_capture_correct`: Correctness of action-item owner extraction.<br> - `deadline_capture_correct`: Correctness of deadline extraction.<br> - `unsupported_claims`: Count of unsupported or hallucinated claims.<br> - `quality_rating_1_to_5`: Overall quality rating on a scale of 1–5.<br> - `notes`: Additional evaluation observations.<br><br>Correctness fields use `1` for correct and `0` for incorrect. The template contains five evaluation entries (`T01`–`T05`). 
 
 ## Features
 
@@ -47,8 +47,10 @@ ollama pull qwen2.5:1.5b
 ```
 
 ### 3. Setting up Python
-python -m pip install -r requirements.txt
 
+```powershell
+python -m pip install -r requirements.txt
+```
 
 ### 4. Launching the app
 
