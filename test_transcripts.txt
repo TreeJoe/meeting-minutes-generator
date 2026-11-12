@@ -1,0 +1,174 @@
+==============================================================================
+T01_Marketing_Campaign.txt
+==============================================================================
+
+MEETING: Spring Refresh Campaign Planning
+DATE: Not stated
+
+[00:00] Priya (Marketing Head): Okay, let's start. The Spring Refresh campaign is planned for the 10th next month. The old calendar says the 5th, but that's outdated.
+[00:18] Nikhil (Finance): The approved budget is five lakh rupees including production. It was six lakh earlier, but the extra lakh was removed last week.
+[00:35] Rohit (Sales): Customers are asking for discounts. Could we offer 20 percent?
+[00:43] Priya: Twenty is too high. We can consider 10 percent.
+[00:50] Nikhil: Ten percent is manageable, but only on selected products, not the whole catalogue.
+[01:00] Rohit: Okay. I'll send the best-selling product list by Friday evening and update the sales calendar to show the 10th.
+[01:15] Arjun (Social Media): My draft is three reels a week, daily stories and two micro-influencers. One has 40,000 followers, the other 65,000.
+[01:30] Kavya (Content): Do we know their engagement rates? One may have worked with a competitor.
+[01:38] Arjun: I need to check both engagement rates and whether that competitor campaign is a conflict.
+[01:50] Priya: Please check before contacting them. What's the creative idea?
+[02:00] Kavya: Short before-and-after videos, around 30 seconds, showing how the product fits into a customer's routine. Maybe testimonials too.
+[02:13] Arjun: We need written customer consent for testimonials.
+[02:18] Priya: Yes, written permission is required. Kavya, prepare the creative brief by Thursday afternoon.
+[02:30] Nikhil: The agency quoted one lakh eighty thousand. I can negotiate and aim for one lakh fifty thousand after I receive the brief. That's a target, not an agreed price.
+[02:45] Priya: Payment approval must be completed by the 7th, assuming we finalize the agency.
+[02:55] Arjun: Hashtags: #SpringRefresh and #RefreshYourRoutine.
+[03:02] Kavya: What about #FreshStartWithUs?
+[03:08] Priya: Use #FreshStartWithUs as primary and #SpringRefresh as secondary.
+[03:18] Nikhil: Let's review reach, engagement, website traffic and conversion rate weekly.
+[03:27] Priya: Agreed. First-two-week targets are 100,000 reach and at least five percent engagement. We are not setting a sales target today; I need to discuss that with the sales director.
+[03:45] Rohit: So 100,000 sales?
+[03:48] Priya: No, reach, not sales. Keep those separate.
+[03:55] Arjun: I'll prepare the social calendar by Monday, once I have Rohit's product list.
+[04:08] Priya: Recap: Rohit sends the list Friday evening and updates the sales calendar; Kavya sends the brief Thursday afternoon; Nikhil negotiates after the brief and gets payment approval by the 7th if the agency is finalized; Arjun checks influencers and prepares the calendar by Monday.
+[04:35] Kavya: Are we doing a launch event?
+[04:40] Priya: Not for now. Digital only; we can reconsider after seeing results. [chair scrape]
+[05:00] Priya: Share updates in the campaign group. Meeting closed.
+
+
+==============================================================================
+T02_Software_Release.txt
+==============================================================================
+
+MEETING: Dashboard Release Readiness
+DATE: Not stated
+
+[00:00] Ananya (Project Manager): We are targeting the dashboard release for Friday the 20th, provided critical bugs are closed. Monday the 23rd is the fallback if they aren't.
+[00:18] Rahul (Backend Developer): The profile endpoint returns a 500 error for accounts without a profile image. I found a null-check issue and can fix it by tomorrow afternoon.
+[00:38] Ananya: Please also investigate the password-reset email. Two test accounts didn't receive it.
+[00:48] Rahul: I don't know the cause. It might be mail-server configuration, but I'll check logs with backend operations and report tomorrow. [keyboard tapping]
+[01:05] Sneha (Frontend Developer): Dashboard load time is about eight seconds. I want to reduce duplicate API calls and lazy-load charts. Under four seconds is the target, but I need to profile it first.
+[01:25] Ananya: Please prioritize that. No deadline is set for the performance work yet.
+[01:32] Vikram (QA): Once Rahul's fix and the frontend build are ready, I'll run full regression testing. I also need 30 dummy accounts for new-user and empty-profile cases.
+[01:48] Ananya: Can you create them?
+[01:51] Vikram: Yes, I'll create all 30, starting today.
+[02:00] Meera (UI Designer): I'll resend the mobile dashboard mockups today. The earlier attachment may not have gone through.
+[02:12] Ananya: I'll review them by Wednesday noon. Please highlight the navigation changes.
+[02:22] Meera: The client also asked about dark mode.
+[02:28] Ananya: Dark mode is not part of this release. Put it in the post-release backlog.
+[02:38] Sneha: The notification module isn't connected to the new API. I could take it, but that may affect performance work.
+[02:48] Ananya: Prioritize performance. Notification ownership is undecided; don't treat it as assigned.
+[03:00] Rahul: The client also asked for preferred language on the profile page.
+[03:08] Ananya: That's also post-release backlog. No one should start it now.
+[03:18] Vikram: I'll send the regression report when testing is complete. I can't give an exact date until I receive the build and fixes.
+[03:30] Ananya: No production restart or release shortcut without appropriate approval. [brief audio break]
+[03:40] Ananya: Recap: Rahul fixes the profile bug by tomorrow afternoon and investigates the email issue with operations by tomorrow. Sneha works on performance, target under four seconds, deadline not specified. Vikram creates 30 accounts and runs regression after the fixes and build are ready. Meera resends mockups today; I'll review by Wednesday noon.
+[04:25] Vikram: Just confirming, I own regression testing, not Sneha?
+[04:30] Ananya: Correct, you own QA and regression.
+[04:38] Sneha: I'll focus on performance. [notification sound]
+[04:45] Ananya: Friday the 20th is the target; Monday the 23rd is only the fallback if critical bugs remain. Meeting closed.
+[05:00] [microphone clicks]
+
+
+==============================================================================
+T03_University_Event.txt
+==============================================================================
+
+MEETING: TechFest Planning Committee
+DATE: Not stated
+
+[00:00] Riya (Faculty Coordinator): We need to finalize the main arrangements for TechFest. The event dates are 12 and 13 December. The auditorium booking is confirmed for both days.
+[00:20] Kabir (Student Lead): We have 18 robotics teams registered. Registration stays open until 5 December.
+[00:35] Neha (Sponsorship Lead): One sponsor is confirmed at ₹40,000. A second company is interested, but nothing is signed.
+[00:48] Riya: Don't list the second company as a sponsor until we have written confirmation.
+[01:00] Arjun (Logistics): The auditorium seats 300. We expect around 250 participants, but that's an estimate.
+[01:15] Kabir: We need 12 volunteers. I'll prepare the roster by 30 November.
+[01:25] Riya: Department representatives should send names to Kabir by 27 November.
+[01:38] Neha: I'll send the sponsor logo and approved wording to the design team by Wednesday. Don't use the second company's logo.
+[01:50] Meera (Design): I can prepare the event poster, but I need the final schedule.
+[02:00] Riya: The schedule isn't final. Make a poster layout with placeholders; don't publish it.
+[02:12] Arjun: Sound vendor one quoted ₹18,000. Vendor two quoted ₹15,000 but excludes two wireless microphones.
+[02:25] Riya: We haven't selected a vendor. Arjun, get a revised quote from vendor two including microphones by Friday.
+[02:40] Kabir: Someone said a local musician might come. Can we announce the guest?
+[02:48] Riya: No confirmation yet. Don't announce any guest.
+[02:58] Neha: The budget cap is ₹1.2 lakh. We have spent ₹40,000 on the auditorium and ₹10,000 on initial materials.
+[03:12] Arjun: Does that include food?
+[03:15] Riya: Yes, food must fit in the remaining amount. Per-person meal budget isn't decided.
+[03:28] Meera: I'll make the poster draft by 2 December, with placeholders.
+[03:38] Kabir: QR-based entrance registration could help.
+[03:43] Arjun: Wi-Fi was unreliable last year.
+[03:48] Riya: QR check-in is only a proposal. Arjun, check offline scanning by 3 December; we aren't confirming it today.
+[04:05] Neha: I'll send sponsor material Wednesday. [door opens, voices in background]
+[04:15] Riya: Next committee review is 4 December at 3 PM. We'll finalize the schedule and vendor then.
+[04:30] Meera: Just confirming, poster draft by 2 December, not final publication?
+[04:35] Riya: Correct, draft only.
+[04:42] Arjun: Revised sound quote by Friday and QR feasibility by 3 December.
+[04:50] Riya: Keep the second sponsor and guest unconfirmed. Meeting closed.
+[05:00] [chairs moving]
+
+
+==============================================================================
+T04_Customer_Support_Incident.txt
+==============================================================================
+
+MEETING: Customer Support Escalation Review
+DATE: Not stated
+
+[00:00] Dev (Support Manager): Complaints about delayed order confirmations increased yesterday afternoon. Let's establish what we know before assigning fixes.
+[00:18] Pooja (Support Lead): There are 46 tickets tagged confirmation delayed. In a sample of 12, most customers were charged, but the confirmation email arrived late or not at all.
+[00:38] Imran (Payments Engineer): Payment processing looks normal in the dashboard. I haven't found failed transactions in the sample, but I need to compare gateway logs with the order service.
+[00:55] Dev: So don't tell customers that payments failed. We don't know that.
+[01:05] Imran: I'll compare gateway and order-service logs by 4 PM today and share findings.
+[01:18] Pooja: Support needs one response template. Agents are giving different explanations.
+[01:30] Dev: I'll draft an approved response today. It should say confirmation may be delayed and customers should not place a duplicate order while we investigate.
+[01:50] Sara (Operations): The email provider dashboard shows elevated queue time, but I can't confirm that's the only cause.
+[02:02] Imran: There may also be a delay in the order event consumer. I'll check both systems; don't call it a provider outage yet.
+[02:18] Dev: Agreed. Those are possible areas, not a confirmed root cause.
+[02:28] Pooja: Should we contact all 46 customers proactively?
+[02:35] Dev: Wait until we have the log comparison. For now, respond to incoming tickets using the template once I send it.
+[02:48] Sara: I can monitor the email queue every hour and post updates in the incident channel, until it returns to normal.
+[03:00] Dev: Please do that. No end time is set.
+[03:08] Imran: If the order event consumer is stuck, restarting it might clear the backlog, but I won't restart production without approval.
+[03:20] Dev: Correct. No production restart without approval from the on-call lead.
+[03:30] Pooja: Three customers reported duplicate confirmation emails, not duplicate charges as far as we know.
+[03:42] Imran: I'll include those cases in the log review. [phone rings]
+[03:50] Dev: Checkpoint at 5 PM today. Imran, share findings before then if possible.
+[04:00] Pooja: I'll tag the 46 tickets and prepare the list of three duplicate-email cases by 2 PM.
+[04:12] Sara: If the queue gets worse, should I escalate?
+[04:18] Dev: Yes, notify the on-call lead immediately if queue time increases for two consecutive checks.
+[04:30] Dev: Recap: Imran compares logs by 4 PM; Pooja tags tickets and lists duplicate-email cases by 2 PM; Sara monitors hourly and escalates under that condition; I'll send the response template today. Root cause remains unknown.
+[04:52] Pooja: Understood. Meeting closed.
+[05:00] [background voices]
+
+
+==============================================================================
+T05_Budget_Procurement.txt
+==============================================================================
+
+MEETING: Office Equipment Procurement Review
+DATE: Not stated
+
+[00:00] Maya (Operations Manager): We need equipment for new hires: 12 laptops and 8 monitors.
+[00:15] Karan (IT): Supplier one quoted ₹72,000 per laptop with three-year onsite support. Supplier two quoted ₹68,500, but support is one year and delivery isn't included.
+[00:35] Leena (Finance): The approved ceiling is ₹9 lakh including taxes and delivery. Compare total cost, not just unit price.
+[00:48] Karan: Supplier one can deliver in 10 working days. Supplier two hasn't confirmed delivery time.
+[01:00] Maya: No supplier is selected. Karan, ask supplier two for delivery charges, delivery date and a three-year support option by Thursday.
+[01:18] Leena: Monitors are estimated at ₹14,000 each, but that's not a final quote.
+[01:28] Maya: Karan, get two monitor quotes with the laptop comparison by Thursday too.
+[01:40] Karan: Should I place a provisional order with supplier one?
+[01:45] Maya: No order until Finance confirms the total is within ₹9 lakh and I approve the supplier.
+[01:58] Leena: I can review the cost comparison Friday morning if I receive complete quotes by Thursday evening.
+[02:12] Maya: I'll make the final supplier decision after Leena's review. Let's aim for Friday afternoon, but that's a target, not a purchase commitment.
+[02:28] Rohan (HR): The first six new hires start 15 January. The other six start 1 February. Can we prioritize the first six laptops?
+[02:42] Maya: Yes, ask suppliers whether they can split delivery. Karan, include that in your questions by Thursday.
+[02:55] Karan: Monitors are needed before the first group starts, but we can use two existing spare monitors if delivery slips.
+[03:08] Leena: That's acceptable as a planning workaround, but don't count the spares as purchased equipment.
+[03:20] Maya: Correct. Quantities remain 12 laptops and 8 monitors.
+[03:30] Rohan: Do we need laptop bags and docking stations?
+[03:38] Maya: Not in this procurement. Consider them separately later; don't add them to this order.
+[03:50] Leena: Supplier one asks for 50 percent advance; supplier two wants full payment on dispatch. We need to check standard policy.
+[04:05] Maya: Leena, confirm whether those terms are acceptable under policy by Friday noon.
+[04:15] Leena: I'll check with procurement policy and report by Friday noon.
+[04:25] Karan: I'll send the full comparison, including taxes, delivery, support, split delivery and monitor quotes, by Thursday evening.
+[04:38] Maya: I won't approve a supplier until Finance reviews the complete comparison. No purchase order today.
+[04:48] Rohan: And no follow-up date has been set?
+[04:52] Maya: Correct. Meeting closed.
+[05:00] [chairs scrape]
